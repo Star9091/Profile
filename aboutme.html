@@ -4,20 +4,26 @@
 <style>
   h1 {color:blue; font-family: courier; font-size: 125%; }
   p {color:blue; font-family: courier;}
-  body {background-image: url("https://tse2.mm.bing.net/th?id=OIP.WfmyzPWF0SBsbGdo-97f5gEsEs&w=173&h=173&c=7&qlt=90&o=4&pid=1.7"); }
+  body {background-color: orange; }
   
 </style>
 <title> About Me </title>
 </head>
 <body>
+  <script>
+  window.alert("Welcome to my webpage!")
+ </script>
   <h1>About Me</h1><br>
-  <img src="http://media-minecraftforum.cursecdn.com/attachments/98/283/635636946656529657.gif" alt="Here's a cookie!" style= "width: 300px; height: 300px;">
+  <img onmouseover= "https://media.tenor.com/images/beb8c75d495bc523f882137d6175785f/tenor.gif" onmouseout= "http://media-minecraftforum.cursecdn.com/attachments/98/283/635636946656529657.gif" alt="No cookies here" style= "width: 300px; height: 300px;">
   <br><p> Hello, my name is Emily, and I am a member of Girls Who Codes! I got experience with coding for the first time from my freshmen
   year of highschool, and wanted to know more about coding ever since. I joined the Girls Who Code Summer Imersion Program to get better 
   at coding and be prepare for computer science classes. I want to major in something math or science related, and I'm considering a 
   carrer in computer science!</p> <br>
   
-  <h2> Lessons Learned: </h2><br><br>
+  <h2> Lessons Learned: </h2><br><br> 
+  
+  <h3> Week 1</h3>
+  
   <h3>Scratch: Who am I?</h3>
   <a href = "https://scratch.mit.edu/projects/167340430/">The Project, About Me</a><br>
   <p>One of the first projects we had made was to explain about ourselves. The link will show you the game I had created for the project.
@@ -44,5 +50,29 @@
   game with me, but the link has most of all the game mechanics in the game, such as unused ideas like the color change. The 
   gravity of the game gave us some problems, as well as the spinning circle used in the game. But in the end, we overcome that task
   and made the game.</p>
+  <h3> Week 2</h3>
+  <h3> Drawing Shapes, Python Edition!</h3>
+  <p id="demo" style="display:none">
+print("Hello Turtle!")<br><br>
+from turtle import*<br>
+import math<br>
+t = Turtle()<br>
+t.pendown()<br>
+t.pencolor("blue")<br>
+setup(500,300)<br>
+x_pos = -250<br>
+y_pos = -150<br>
+t.setposition(0,0)<br>
+side = eval(input("How many sides?"))<br>
+size = eval(input("How big?"))<br>
+i = 0<br>
+for i in range(side):<br>
+t.fd(size)<br>
+t.rt(360/side)<br><br>
+exitonclick()<br>
+<button type="button" onclick="document.getElementById('demo').style.display='none'"> Remove the python text here</button></p>
+ <button type="button" onclick="document.getElementById('demo').style.display='block'">Click here to see the Python code!</button> 
+ <p> To introduce ourselves to the next language, Python, we </p><br>
+ 
 </body>
 </html>
